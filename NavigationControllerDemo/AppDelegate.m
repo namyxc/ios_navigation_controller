@@ -7,16 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "RedViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+//https://join.me/peter.t360
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    CGRect windowSize = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:windowSize];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:[RedViewController new]];
+    
+    self.window.rootViewController = navController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

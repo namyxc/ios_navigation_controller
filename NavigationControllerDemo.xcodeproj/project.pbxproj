@@ -10,9 +10,11 @@
 		8A37CC751BF1EFB000D2B77D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CC741BF1EFB000D2B77D /* main.m */; };
 		8A37CC781BF1EFB000D2B77D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CC771BF1EFB000D2B77D /* AppDelegate.m */; };
 		8A37CC7B1BF1EFB000D2B77D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CC7A1BF1EFB000D2B77D /* ViewController.m */; };
-		8A37CC7E1BF1EFB000D2B77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A37CC7C1BF1EFB000D2B77D /* Main.storyboard */; };
 		8A37CC801BF1EFB000D2B77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A37CC7F1BF1EFB000D2B77D /* Assets.xcassets */; };
 		8A37CC831BF1EFB000D2B77D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A37CC811BF1EFB000D2B77D /* LaunchScreen.storyboard */; };
+		8A37CC921BF1F39B00D2B77D /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CC911BF1F39B00D2B77D /* RedViewController.m */; };
+		8A37CC951BF1F3B300D2B77D /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CC941BF1F3B300D2B77D /* YellowViewController.m */; };
+		8A37CC981BF1F3C400D2B77D /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CC971BF1F3C400D2B77D /* GreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,15 @@
 		8A37CC771BF1EFB000D2B77D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A37CC791BF1EFB000D2B77D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8A37CC7A1BF1EFB000D2B77D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8A37CC7D1BF1EFB000D2B77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A37CC7F1BF1EFB000D2B77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A37CC821BF1EFB000D2B77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A37CC841BF1EFB000D2B77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A37CC901BF1F39B00D2B77D /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		8A37CC911BF1F39B00D2B77D /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		8A37CC931BF1F3B300D2B77D /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		8A37CC941BF1F3B300D2B77D /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		8A37CC961BF1F3C400D2B77D /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		8A37CC971BF1F3C400D2B77D /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,12 @@
 		8A37CC671BF1EFAF00D2B77D = {
 			isa = PBXGroup;
 			children = (
+				8A37CC901BF1F39B00D2B77D /* RedViewController.h */,
+				8A37CC911BF1F39B00D2B77D /* RedViewController.m */,
+				8A37CC931BF1F3B300D2B77D /* YellowViewController.h */,
+				8A37CC941BF1F3B300D2B77D /* YellowViewController.m */,
+				8A37CC961BF1F3C400D2B77D /* GreenViewController.h */,
+				8A37CC971BF1F3C400D2B77D /* GreenViewController.m */,
 				8A37CC721BF1EFB000D2B77D /* NavigationControllerDemo */,
 				8A37CC711BF1EFB000D2B77D /* Products */,
 			);
@@ -62,7 +75,6 @@
 				8A37CC771BF1EFB000D2B77D /* AppDelegate.m */,
 				8A37CC791BF1EFB000D2B77D /* ViewController.h */,
 				8A37CC7A1BF1EFB000D2B77D /* ViewController.m */,
-				8A37CC7C1BF1EFB000D2B77D /* Main.storyboard */,
 				8A37CC7F1BF1EFB000D2B77D /* Assets.xcassets */,
 				8A37CC811BF1EFB000D2B77D /* LaunchScreen.storyboard */,
 				8A37CC841BF1EFB000D2B77D /* Info.plist */,
@@ -138,7 +150,6 @@
 			files = (
 				8A37CC831BF1EFB000D2B77D /* LaunchScreen.storyboard in Resources */,
 				8A37CC801BF1EFB000D2B77D /* Assets.xcassets in Resources */,
-				8A37CC7E1BF1EFB000D2B77D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A37CC921BF1F39B00D2B77D /* RedViewController.m in Sources */,
+				8A37CC951BF1F3B300D2B77D /* YellowViewController.m in Sources */,
+				8A37CC981BF1F3C400D2B77D /* GreenViewController.m in Sources */,
 				8A37CC7B1BF1EFB000D2B77D /* ViewController.m in Sources */,
 				8A37CC781BF1EFB000D2B77D /* AppDelegate.m in Sources */,
 				8A37CC751BF1EFB000D2B77D /* main.m in Sources */,
@@ -158,14 +172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A37CC7C1BF1EFB000D2B77D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A37CC7D1BF1EFB000D2B77D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A37CC811BF1EFB000D2B77D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
